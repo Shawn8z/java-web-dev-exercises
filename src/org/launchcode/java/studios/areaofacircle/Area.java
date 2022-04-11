@@ -8,6 +8,7 @@ public class Area {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter radius of the circle");
         double radius;
+
 //        if (!input.hasNextInt()) {
 //            System.err.println("Please type in number only.");
 //        } else {
@@ -15,7 +16,6 @@ public class Area {
 //            int area = (int) Math.round(Circle.getArea(radius));
 //            System.out.println("The area of the circle is " + area);
 //        }
-
 
         while (!input.hasNextInt()) {
             System.err.println("Please type in number only.");
