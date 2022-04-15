@@ -17,12 +17,12 @@ public class Area {
 //            System.out.println("The area of the circle is " + area);
 //        }
 
-        while (!input.hasNextInt()) {
+        while (!input.hasNextDouble()) {
             System.err.println("Please type in number only.");
             input.next();
         }
 
-        radius = input.nextInt();
+        radius = input.nextDouble();
         int area = (int) Math.round(Circle.getArea(radius));
         System.out.println("The area of the circle is " + area);
     }
